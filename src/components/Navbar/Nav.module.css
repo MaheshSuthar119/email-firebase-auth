@@ -1,0 +1,136 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: brown;
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .nav h2 {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .nav h2:hover {
+    color: blueviolet;
+  }
+  
+
+ 
+ .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: gray;
+    margin-top: 40px ;
+    border-radius: 4px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .inputs {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .input {
+    position: relative;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"] {
+    margin-left: 10px;
+    /* display:flex; */
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .forgotpassword {
+    /* text-align: center; */
+    padding: 3px;
+    margin-top: 0px;
+    color:rgb(17, 10, 1);
+    font-size: 15px;
+  }
+  
+  .forgotpassword span {
+    color: blue;
+    cursor: pointer;
+  }
+  .gender{
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  .submit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    background-color: brown;
+    margin-left: 42px;
+    cursor: pointer;
+    border-radius: 4px;
+     
+  }
+  .submit:hover{
+    background-color: red;
+  }
+  
+  /* Responsive CSS */
+
+  /* Responsive CSS */
+
+@media screen and (max-width: 600px) {
+    .nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .In,
+    .Up {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      max-width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .text {
+      font-size: 20px;
+    }
+  
+    .inputs {
+      display: block;
+    }
+  }
+  
